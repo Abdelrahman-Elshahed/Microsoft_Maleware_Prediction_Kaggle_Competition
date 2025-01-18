@@ -14,9 +14,26 @@ This project demonstrates a comprehensive approach to detecting malware using a 
 
 
 ## Enhanced Overview
-1. **Data Preprocessing**: Handled missing values, treated skewness, and controlled outliers to ensure data quality.  
-2. **Feature Selection**: Applied Chi-Square, ANOVA, Mutual Information, and Kendall’s Tau to identify top predictors.  
-3. **Dimensionality Reduction**: Performed LDA, t-SNE, and UMAP to visualize and reduce feature space.  
+
+### 1. Data Preparation & Preprocessing:
+- Imports necessary libraries for data manipulation, visualization and ML
+- Loads Microsoft malware dataset from Kaggle
+- Handles missing values and outliers 
+- Performs feature encoding and scaling
+
+### 2. Feature Engineering & Selection:
+- Uses various feature selection techniques like:
+  - Chi-Square test
+  - ANOVA
+  - Mutual Information
+  - Kendall's correlation
+
+### 3. Dimensionality Reduction:
+- Implements multiple dimensionality reduction techniques:
+  - LDA (Linear Discriminant Analysis) 
+  - t-SNE
+  - UMAP
+ 
 
 ## Clone the Repository
 
